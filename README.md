@@ -47,5 +47,29 @@ We will be evaluating
 
 #### Test Cases
 
- 1.  
+1.  Verify the order should not be placed without providing the mandatory fields Name and Phone number
+2.  Test Quantity field should accept numeric values only
+3.  Test Quantity field should not accept numbers more than 5 digits
+3.  Test the cost field showing up the right value depending on the provided pizzaType and quantity
+4.  Test the cost field should not be altered manually
+5.  Verify the Name field not accepting more than 100 characters
+6.  Verify the Email field not accepting more than 100 characters
+7.  Verify the Phone field not accepting more than 100 digits
+8.  Test the ability to select and unselect payment mode radio buttons
+9.  Test the Place Order button
+10. Test dialogue box message showing up the selected pizza type and correct cost.
+11. Test dialogue box message when name and phone numbers are missing.
+12. Test the dialogue box message when quantity value is not provided .
+13. Test the Reset button, should clear all the entered values.
+
+Defects/Issues Observed:
+1. Pizza1/Pizza Type should be a mandatory field.
+2. Even though pizza type selected as no toppings, in the form it is still allowing to select the toppings.
+3. PizzaQuantity should be a mandatory field also should not accept characters.
+4. Phone number should not accept characters.
+5. No validations around phone number and email.
+6. Order should not be placed without selecting the payment mode.
+7. Only one payment mode should be selected. Currently, it is allowing to select both the payment options.
+8. Reset button not clearing the pizza topping values.
+9. After clicking place order button values are getting cleared.  
 
